@@ -1,5 +1,5 @@
 import CartWidget from "./CartWidget";
-
+import React from "react";
 function NavBar() {
     return (
         <nav className="navbar" role="navigation" aria-label="main navigation">
