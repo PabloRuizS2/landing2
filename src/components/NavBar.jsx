@@ -1,11 +1,11 @@
 import CartWidget from "./CartWidget";
-
+import React from "react";
 function NavBar() {
     return (
         <nav className="navbar" role="navigation" aria-label="main navigation">
             <div className="navbar-brand">
                 <a className="navbar-item" href="#">
-                    <h1>MTC</h1>
+                    <h1>clp</h1>
                 </a>
                 <a role="button" className="navbar-burger column" aria-label="menu" aria-expanded="true" data-target="navBarMenu">
                     <span aria-hidden="true" />
@@ -17,7 +17,7 @@ function NavBar() {
                 <div className="navbar-start">
                     <a className="navbar-item">Home</a>
                     <div className="navbar-item has-dropdown is-hoverable">
-                        <a className="navbar-link"><Celulares></Celulares></a>
+                        <a className="navbar-link">Celulares</a>
                         <div className="navbar-dropdown">
                             <a className="navbar-item">Samsung</a>
                             <a className="navbar-item">Apple</a>
