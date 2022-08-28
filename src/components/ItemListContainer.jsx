@@ -1,6 +1,6 @@
 import React from 'react'
 
-function ItemListContainer() {
+function ItemListContainer(parametro) {
     return (
         <div>ItemListContainer</div>
     )
